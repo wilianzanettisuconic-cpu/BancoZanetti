@@ -5,7 +5,9 @@ public class Program
     private static decimal valorAtual = 100m;
     public static void Main(string[] args)
     {
-        Console.WriteLine("Bem-vindo ao Banco Zanetti!");
+        Console.WriteLine("-------------------------------------------------");
+        Console.WriteLine("---------Bem-vindo ao Banco Zanetti!-------------");
+        Console.WriteLine("-------------------------------------------------");
 
         var (usuario, senha) = LoginSenha();
 
